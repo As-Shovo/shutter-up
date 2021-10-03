@@ -1,0 +1,28 @@
+.hero-section{
+    background-color: rgb(99, 206, 241);
+}
+
+.hero-info{
+    padding: 50px 10px;
+    margin: 40px 10px;
+}
+.hero-info h1{
+    margin: 20px 0;
+    padding: 5px 0;
+}
+
+.bannar-image img{
+    max-width: 400px;
+}
+
+.hero-info button{
+    padding: 8px 30px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.hero-info button:hover{
+    background-color: lightcyan;
+}
