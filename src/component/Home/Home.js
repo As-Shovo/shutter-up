@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
 import bannarImage from '../../images/young-photographer-banner.png'
-import HeroServices from '../HeroServices/HeroServices';
+import ShowServices from '../ShowServices/ShowServices';
 import ShowGallery from '../ShowGallery/ShowGallery';
 import './Home.css'
 
@@ -21,7 +21,7 @@ const Home = () => {
     }, []);
 
     useEffect(()=>{
-        fetch('galleryData.JSON')
+        fetch('homeGalleryData.JSON')
         .then(res => res.json())
         .then(data => setGallerys(data))
     },[])
@@ -54,7 +54,7 @@ const Home = () => {
                 <h1 className="text-center my-3 py-2">Our Services</h1>
                 <Row className="py-2 my-2">
                     {
-                        servicess.map(services => <HeroServices key={services.id} services={services}></HeroServices>)
+                        servicess.map(services => <ShowServices key={services.id} services={services}></ShowServices>)
                     }
                 </Row>
 

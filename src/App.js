@@ -6,6 +6,7 @@ import Home from './component/Home/Home';
 import Services from './component/Services/Services';
 import NotFound from './component/NotFound/NotFound';
 import Footer from './component/Footer/Footer';
+import Gallery from './component/Gallery/Gallery';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route exact path="/services">
             <Services></Services>
+          </Route>
+          <Route exact path="/gallery">
+            <Gallery></Gallery>
           </Route>
           <Route exact path="/about">
             <About></About>

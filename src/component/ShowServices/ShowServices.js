@@ -2,7 +2,7 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import './HeroServices.css'
+import './ShowServices.css'
 
 const HeroServices = (props) => {
     const { image, catagory } = props.services;
