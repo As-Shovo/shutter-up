@@ -11,6 +11,7 @@ import Gallery from './component/Gallery/Gallery';
 function App() {
   return (
     <div>
+    {/* React Router */}
       <Router>
         <Header></Header>
         <Switch>
