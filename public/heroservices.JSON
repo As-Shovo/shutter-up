@@ -1,17 +1,30 @@
 [
-    {
-       "id":1,
-       "image":"https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-       "catagory":"Photography"
-    },
-    {
-       "id":2,
-       "image":"https://images.unsplash.com/photo-1614760522172-2c2d660427b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-       "catagory":"Filmaking"
-    },
-    {
-       "id":3,
-       "image":"https://images.unsplash.com/photo-1571178588476-7abca9d9ac97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-       "catagory":"Graphic Design"
-    }
- ]
+   {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
+      "catagory": "Photography",
+      "price": 399,
+      "durition": "3 Month"
+  },
+  {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1614760522172-2c2d660427b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
+      "catagory": "Filmaking",
+      "price": 899,
+      "durition": "6 Month"
+  },
+  {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1571178588476-7abca9d9ac97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
+      "catagory": "Graphic Design",
+      "price": 399,
+      "durition": "4 Month"
+  },
+  {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1616865625064-fb1bfe958416?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
+      "catagory": "Weading",
+      "price": 399,
+      "durition": "3 Month"
+  }
+]

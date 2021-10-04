@@ -42,7 +42,7 @@ const Home = () => {
                                 <h1>We Are Professional <br />
                                     Photographer </h1>
                                 <p>Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.</p>
-                                <Link to="/gallery"><button> Gallary </button></Link>
+                                <Link to="/services"><button> Enroll Our Course </button></Link>
                             </div>
                         </Col>
                         <Col md={4} className="bannar-image">

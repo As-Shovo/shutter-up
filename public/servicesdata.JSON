@@ -2,61 +2,85 @@
     {
         "id": 1,
         "image": "https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Photography"
+        "catagory": "Photography",
+        "price": 399,
+        "durition": "3 Month"
     },
     {
         "id": 2,
         "image": "https://images.unsplash.com/photo-1614760522172-2c2d660427b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Filmaking"
+        "catagory": "Filmaking",
+        "price": 899,
+        "durition": "6 Month"
     },
     {
-        "id":3,
-        "image":"https://images.unsplash.com/photo-1571178588476-7abca9d9ac97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory":"Graphic Design"
-     },
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1571178588476-7abca9d9ac97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
+        "catagory": "Graphic Design",
+        "price": 399,
+        "durition": "4 Month"
+    },
     {
         "id": 4,
         "image": "https://images.unsplash.com/photo-1616865625064-fb1bfe958416?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Weading"
+        "catagory": "Weading",
+        "price": 399,
+        "durition": "3 Month"
     },
     {
         "id": 5,
         "image": "https://images.unsplash.com/photo-1485872299829-c673f5194813?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=860&q=80",
-        "catagory": "Party Photography"
+        "catagory": "Party Photography",
+        "price": 199,
+        "durition": "3 Month"
     },
     {
         "id": 6,
         "image": "https://images.unsplash.com/photo-1623122245120-7eef6faa39c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Professional"
+        "catagory": "Professional",
+        "price": 399,
+        "durition": "4 Month"
     },
     {
         "id": 7,
         "image": "https://images.unsplash.com/photo-1572635196184-84e35138cf62?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Product Photography"
+        "catagory": "Product Photography",
+        "price": 499,
+        "durition": "6 Month"
     },
     {
         "id": 8,
         "image": "https://images.unsplash.com/photo-1567437361700-c0235d54e5e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Event & Party"
+        "catagory": "Event & Party",
+        "price": 599,
+        "durition": "4 Month"
     },
     {
         "id": 9,
         "image": "https://images.unsplash.com/photo-1594150878496-a921e5af8907?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=909&q=80",
-        "catagory": "Baby Shower"
+        "catagory": "Baby Shower",
+        "price": 199,
+        "durition": "2 Month"
     },
     {
         "id": 10,
         "image": "https://images.unsplash.com/photo-1557484460-a08474899084?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Birthday Party"
+        "catagory": "Birthday Party",
+        "price": 299,
+        "durition": "2 Month"
     },
     {
         "id": 11,
         "image": "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Fession Photography"
+        "catagory": "Fession Photography",
+        "price": 499,
+        "durition": "3 Month"
     },
     {
         "id": 12,
         "image": "https://images.unsplash.com/photo-1597779610286-5c88875f3589?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-        "catagory": "Wild Life Photography"
+        "catagory": "Wild Life Photography",
+        "price": 799,
+        "durition": "6 Month"
     }
 ]

@@ -17,8 +17,8 @@ const About = () => {
 
     return (
         <div>
-            <Container className="text-center">
-                    <h1 className="mt-4 pt-3">About Us</h1>
+            <Container >
+                    <h1 className="mt-4 pt-3 text-center">About Us</h1>
                 <Row className="py-5 my-5">
                     <Col md={6} sx={12}>
                         <div className="about-image">
@@ -37,7 +37,7 @@ const About = () => {
                 </Row>
 
                 <div className="out-team">
-                    <h1>Our Awesome Team</h1>
+                    <h1 className="text-center">Our Awesome Team</h1>
                     <Row className="g-2 my-3 py-2">
                         {
                             teams.map(team => <ShowTeams key={team.id} team={team}></ShowTeams>)

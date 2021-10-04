@@ -17,7 +17,7 @@ const Footer = () => {
                             PHOTOGRAPHY <br></br>
                             ORGAINATON
                         </h2>
-                        <p className="me-3">The World Photography Organisation is a global platform for photography which activates initiatives, in over 50 countries each year, that help support artists working in the medium of photography.</p>
+                        <p className="">The World Photography Organisation is a global platform for photography which activates initiatives, in over 50 countries each year, that help support artists working in the medium of photography.</p>
                     </Col>
                     <Col md={4}>
                         <h1>Contact Us</h1>

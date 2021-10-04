@@ -5,7 +5,7 @@ import './DisplayPricing.css';
 const DisplayPricing = (props) => {
     const { title, price, service } = props.pricing;
     return (
-        <Col md={3} xs={6}>
+        <Col md={3} xs={12}>
             <div className="pricing">
                 <h1>{title}</h1>
                 <div className="list-style">
