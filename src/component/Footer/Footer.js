@@ -11,7 +11,7 @@ const Footer = () => {
                 <Row className="felx">
                     <Col md={4} >
                         <div className="logo">
-                            <i class="fas fa-camera-retro"></i> Shutter Up
+                            <i className="fas fa-camera-retro"></i> Shutter Up
                         </div>
                         <h2>WORLD <br></br>
                             PHOTOGRAPHY <br></br>
@@ -22,10 +22,10 @@ const Footer = () => {
                     <Col md={4}>
                         <h1>Contact Us</h1>
                         <div className="footer-menu">
-                            <Link to="#"><i class="fas fa-phone-square-alt icons"></i>  +096122327</Link>
-                            <Link to="#"><i class="fas fa-map-marker-alt icons"></i>  Dhaka-1211, Bangladesh</Link>
-                            <Link to="#"><i class="fas fa-envelope-open-text icons"></i>  ShutterUp@gamil.com</Link>
-                            <Link to="#"><i class="fab fa-instagram-square icons"></i>  Instagrame </Link>
+                            <Link to="#"><i className="fas fa-phone-square-alt icons"></i>  +096122327</Link>
+                            <Link to="#"><i className="fas fa-map-marker-alt icons"></i>  Dhaka-1211, Bangladesh</Link>
+                            <Link to="#"><i className="fas fa-envelope-open-text icons"></i>  ShutterUp@gamil.com</Link>
+                            <Link to="#"><i className="fab fa-instagram-square icons"></i>  Instagrame </Link>
                         </div>
                     </Col>
                     <Col md={4}>

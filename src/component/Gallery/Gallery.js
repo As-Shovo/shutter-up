@@ -19,7 +19,8 @@ const Gallery = () => {
     return (
         <div>
            
-            <Container className="my-2">
+            <Container className="my-2 text-center">
+                <h1 className="my-3 py-2">Gallery</h1>
                 <Row className="g-3">
 
                     {

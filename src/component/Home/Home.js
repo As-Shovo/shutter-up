@@ -7,12 +7,13 @@ import bannarImage from '../../images/young-photographer-banner.png'
 import ShowServices from '../ShowServices/ShowServices';
 import ShowGallery from '../ShowGallery/ShowGallery';
 import './Home.css'
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
 
     const [servicess, setServicess] = useState([]);
-    const [gallerys,setGallerys] = useState([]);
+    const [gallerys, setGallerys] = useState([]);
 
     useEffect(() => {
         fetch('heroservices.JSON')
@@ -20,11 +21,11 @@ const Home = () => {
             .then(data => setServicess(data))
     }, []);
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('homeGalleryData.JSON')
-        .then(res => res.json())
-        .then(data => setGallerys(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setGallerys(data))
+    }, [])
 
 
 
@@ -41,7 +42,7 @@ const Home = () => {
                                 <h1>We Are Professional <br />
                                     Photographer </h1>
                                 <p>Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.</p>
-                                <button> Gallary </button>
+                                <Link to="/gallery"><button> Gallary </button></Link>
                             </div>
                         </Col>
                         <Col md={4} className="bannar-image">
